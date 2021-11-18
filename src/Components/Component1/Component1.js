@@ -17,13 +17,15 @@ const Component1 = () => {
   //   };
 
   // const [data,setData] = useState([]);
-  // axios
-  // .get(`${BASE_URL_NODE}/clients`, {
-  //   headers: {
-  //     authorization: `Bearer ${getAuthToken()}`,
-  //   },
-  // }).then((res)=>{
-  // })
+  //   const fetchData = async () => {
+  //     const res = await axios.get("https://randomuser.me/api/?results=10");
+  //     try {
+  //       console.log(res.data.results);
+  //       setData(res.data.results);
+  //     } catch (err) {
+  //       console.log(err);
+  //     }
+  //   };
 
   const onClickHandler = () => {
     dispatch(
