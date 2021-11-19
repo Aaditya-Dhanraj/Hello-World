@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { PageUiActions } from "../../Store/uiSlice";
@@ -15,6 +15,10 @@ const Component1 = () => {
   //     });
   //     // console.log(data);
   //   };
+
+  useEffect(() => {
+    fetchData();
+  }, [1]);
 
   // const [data,setData] = useState([]);
   //   const fetchData = async () => {
