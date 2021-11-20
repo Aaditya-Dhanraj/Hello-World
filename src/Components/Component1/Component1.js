@@ -16,9 +16,9 @@ const Component1 = () => {
   //     // console.log(data);
   //   };
 
-  useEffect(() => {
-    fetchData();
-  }, [1]);
+  // useEffect(() => {
+  //   fetchData();
+  // }, [1]);
 
   // const [data,setData] = useState([]);
   //   const fetchData = async () => {
